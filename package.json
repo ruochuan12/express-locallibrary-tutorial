@@ -1,0 +1,23 @@
+{
+  "name": "express-locallibrary-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.7.6",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.9.5",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.0",
+    "nodemon": "^2.0.2"
+  }
+}
